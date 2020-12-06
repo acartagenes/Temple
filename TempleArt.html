@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Khula&family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <title>Temple Art</title>
+    
+
+    <style>
+       
+        h1{
+            font-size: 7vw;
+            margin-top: -170px;
+            margin-left: 20px;
+        }
+        h2{
+            font-size: 7vw;
+            margin-top: -173px;
+            margin-left: 22px;
+        }
+        h3{
+            font-size: 3.5vw;
+            margin-top: -205px;
+            margin-left: 30px;
+        }
+        h4{
+            font-size: 3.5vw;
+            margin-top: -207px;
+            margin-left: 32px;
+        }
+       
+
+        .font1{
+            font-family: 'Major Mono Display', monospace;
+            position: absolute;
+            color: #f2c177;
+            z-index: 2;
+        }
+        .font2{
+            font-family: 'Major Mono Display', monospace;
+            position: absolute;
+            color: #1c1010;
+            z-index: 2;
+            
+        }
+
+        .canvas{
+            background-image: linear-gradient(#D9D7C4,#DBC177,#cda935);
+            height:5000px;
+            width: 100vw;
+            margin-left: -10px;
+            margin-top: -10px;
+            overflow-x: hidden;
+        }
+        .top{
+            position: relative;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            position: relative;
+        }
+        .wrapper img {
+            width: 100%;
+            height: 100%;
+        }
+        h6{
+            text-align:center;
+            font-size:5.5vh;
+            position: relative;
+        }
+        
+        .title{
+            text-align: center;
+
+        }
+        .intro{
+            font-family: 'Major Mono Display', monospace;
+            position: relative;
+            color: #490a0a;
+            
+        }
+        #introVideo {
+            width: 80vw;
+            height: 100%;
+            margin-left: 50vw; 
+            transform: translate(-50%); 
+
+        }
+        .journey {
+        background-color: #f29c40;
+        color:#490a0a;
+        position: relative;
+        font-size: 1.5vw;
+        font-family: 'Khula', sans-serif;
+        margin-right: 7%;
+        margin-left:7%;
+        padding: 10px;
+        }
+        
+
+        .entrance {
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            position: relative;
+            padding-bottom: 30px;
+        }
+        .entrance img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #myVideo {
+            width: 50vw;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        section {
+        color: #fff;
+        text-align: center;
+        font-size: 2vw;
+        font-family: 'Julius Sans One', sans-serif;
+        min-height:400px;
+        }
+        
+        .container {
+        display: table;
+        width: 100%;
+        position: relative;
+        }
+        
+       
+        .left-half {
+        background-color: #a4002e;
+        position: absolute;
+        left: 0px;
+        width: 50%;
+        }
+
+        .right-half {
+        background-color: #7B0A21;
+        position: absolute;
+        right: 0px;
+        width: 50%;
+        }
+        .rendered {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .item { 
+            width: 45vw;
+            height: 100%;
+            margin-top: 50px;
+            margin-left: 50px;
+
+        }
+
+        .item img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .item :hover {
+            transform: scale(1.2);
+        }
+
+        .purebliss {
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            position: relative;
+        }
+        .purebliss img {
+            width: 100%;
+            height: 100%;
+        }
+        .ending {
+        background-color: #f29c40;
+        color:#490a0a;
+        position: relative;
+        font-size: 1.5vw;
+        font-family: 'Khula', sans-serif;
+        margin-right: 7%;
+        margin-left:7%;
+        padding: 10px;
+        }
+        
+       
+    </style>
+
+</head>
+
+
+<body>
+    <div class="canvas">
+       
+        <div class="top">
+            <div class="wrapper">
+                <img src="img/headshot.png" alt="headshot">
+                <h1 class="font1">Temple Art</h1>
+                <h2 class="font2">Temple Art</h2>
+                <h3 class="font1"> Albie Anjos</h3>
+                <h4 class="font2"> Albie Anjos</h4>
+                </img>
+            </div>   
+        </div>
+        
+        <div class="title">
+            <h6 class="intro"> The bridge between dreams and reality</h6>
+            <video id="introVideo" controls="controls" preload="none" onclick="this.paused ? this.play() : this.pause();">
+                <source type="video/mp4" src="video/Temple Art.mp4">
+            </video>
+            <h6 class="intro">Step into the virtual.</h6>
+            <h6 class="intro">An exploration of the unknown, and the unimaginable.</h6>
+            <div class="journey"
+                <h6>The quality of being 3 Dimentional truly asks for the collaborative involvement of the viewer in answering the question: What if? 
+                    What started as a playful curiosity, has blossomed into escavating the deepest layers of my mind.
+                    In creating this enviroment, I'm connecting with my first project and prior artwork;
+                    bringing out my imagination that survives on the development and the desire to see this project come to fruition. 
+                    3 weeks ago, I enbarked in a collaborative learning experience with my best friend, Frank, where we started to play around using the program Blender. 
+                    After many youtube videos later, plenty of coffee, and a patience I didn't think I had, I found myself getting closer to bringing to life something I saw faintly in my dreams.
+                    </h6>
+                <h6>I hope you enjoy the visuals, the colors, and most of all, Temple Art. </h6>
+            </div>
+            <div class="entrance">
+                <img src="img/entrance.png" alt="entrance">
+            </div>
+            <div class=""></div>
+        </div>
+        
+        <section class="container">
+            <div class="left-half">
+                <video id="myVideo" controls="controls" preload="none" onclick="this.paused ? this.play() : this.pause();">
+                    <source type="video/mp4" src="video/Center Piece.mp4">
+                </video>
+            </div>
+            <div class="right-half">
+                <p>Center Piece</p>
+                <p> Ideas transition so much during the creative process. 
+                    I created the head using a Face Builder Add-on, in which I used 6 different angled photos to mold my features into the head.  
+                    After sculpting, picking the location, the material, and adding different features like "grass-hair", there is also an elemination process. 
+                    (If you see the skunk, that means Blender crashed...)
+                    
+                </p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="right-half">
+                <video id="myVideo" controls="controls" preload="none" onclick="this.paused ? this.play() : this.pause();">
+                    <source type="video/mp4" src="video/Monstera.mp4">
+                </video>
+            </div>
+            <div class="left-half">
+                <p>Monstera Plant</p>
+                <p>After weeks of practice with youtube tutorials, I started creating more challenging models. Using many of my house plants as refrences, and
+                    messing around with the different blender commands, this helped me create various designs. </p>
+            </div>
+        </section>
+
+        <div class="journey"
+                
+                <h6>Building this from scratch was a slow process at first. 
+                    I had never used Blender and after our professor introduced WebGL, I became very interested in recreating my own objects.
+                    So I dove deeper into the exploration. 
+                    Youtube has incredible content creaters and if you are interested I would suggest following CG Fast Track, and CGMatter.
+                    Here are a couple of different scenes and images of the working process.</h6>
+        </div>
+        
+        <div class="rendered">
+
+        </div>
+    
+        <script>
+    
+            
+            const numImgs = 6;
+            
+            const imgPaths = Array.from({ length: numImgs });
+            
+            imgPaths.forEach((e,i) => {
+                imgPaths[i]=`img2/${i}.png`;
+                });
+            
+            // imgPaths.sort((a,b) => (0.5 - Math.random()) );
+            
+            const makeDiv = () => document.createElement('div');
+            const divs = Array.from({ length: numImgs }, ()=> makeDiv());
+            divs.forEach(div=>div.className='item');
+            
+            const makeImg = () => document.createElement('img');
+            const imgs = Array.from({ length: numImgs }, ()=>makeImg());
+            imgs.forEach((img, i) => img.src=imgPaths[i]);
+            
+            const rendered = document.querySelector('.rendered');
+            
+            divs.forEach((div, i)=>{
+                div.appendChild(imgs[i]);
+                rendered.appendChild(div);
+                
+            })
+    
+    
+        </script>
+          
+          
+        <div class="ending">
+        
+          <p> The last major portion of the project was to render an animated movie. 
+              At 24 frames per second, the new objective became matching movement to a 2 min song. 
+              First, we had to calculate and break down each section of the melody. 
+              Second, figuring out a composition that told a story, and captured each of the elements in the space.
+              Third, playing around with location, rotation, and camera focal length brought up its own dilemas. 
+              Finally, once we were satifised with the story, I sent it out to processing(Frank's computer). Roughly a 2 minute video turned into 3,048 Frames.
+              Rendering speed was on average 70 seconds. So, 3,556 mins later (about 2.5 days of agonizing patience) the movie was complete!
+          </p>
+          <h6>We escape in books, in video games, in artwork and in many other forms. Building this virtual escape felt like I was in control of something, especially during a time with so many uncertainties.
+                Temple Art became a way to visuallize a space for my artwork. Yet, it ended up being an extention of the saturated colors, the mix of nature and body, and the possibility of queer spaces. 
+             </h6>
+        </div>
+        
+                
+        <div class="top">
+            <div class="purebliss">
+                <img src="img/pure bliss.png" alt="purebliss">
+                <h1 class="font1">Temple Art</h1>
+                <h2 class="font2">Temple Art</h2>
+                <h3 class="font1"> Albie Anjos</h3>
+                <h4 class="font2"> Albie Anjos</h4>
+                </img>
+            </div>   
+        </div>
+        
+            
+        
+
+
+    </div>
+
+ 
+
+
+
+
+</body>
+</html>
+
